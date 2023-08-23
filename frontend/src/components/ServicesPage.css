@@ -1,0 +1,80 @@
+/* ServicesPage.css */
+
+.services-page {
+    text-align: center;
+  }
+  
+  .services-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-card {
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    border-bottom: 1px solid #031970;
+    border-radius: 4px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .service-title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .service-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .read-more-btn {
+    background-color: black;
+    color: #fff;
+    font-family: 'Ubuntu', Times, serif;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 1200px) {
+    .service-card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .service-card {
+      width: 80%;
+    }
+  }
+  
+  

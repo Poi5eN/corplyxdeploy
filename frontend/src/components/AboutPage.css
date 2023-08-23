@@ -1,0 +1,79 @@
+/* Custom CSS for the AboutPage component */
+
+.about-page {
+  border-bottom: 2px solid #03185d;
+  padding: 20px;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  border-bottom: 2px solid #2418c6;
+}
+
+h2 {
+  font-size: 36px;
+  color: #040e45;
+  margin-bottom: 10px;
+}
+
+.content-container p {
+  font-size: 18px;
+  color: #0e0d0d;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* 
+.image-container img {
+  border-radius: 10%;
+} */
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Additional styles for subheadings */
+
+h3 {
+  font-size: 24px;
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    padding: 0 10px;
+    font-size: smaller;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .team-members {
+    margin-top: 20px;
+  }
+}

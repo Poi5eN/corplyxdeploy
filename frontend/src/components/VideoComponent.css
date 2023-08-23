@@ -1,0 +1,46 @@
+/* VideoComponent.css */
+.video-section {
+  position: relative;
+  height: 625px;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: +5;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .typewriter-animation {
+    overflow: hidden;
+    border-right: 0.15em solid #000; /* Change color if needed */
+    white-space: nowrap;
+    margin: 0 auto; /* Adjust as per your layout */
+    letter-spacing: 0.15em; /* Adjust as per your preference */
+    animation: typewriter 3s steps(40) infinite;
+  }
+  

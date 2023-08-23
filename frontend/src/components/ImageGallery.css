@@ -1,0 +1,35 @@
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section {
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.zoom-effect img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-effect:hover img {
+  transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+  .image-gallery {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .image-section {
+    flex-basis: calc(25% - 20px);
+  }
+}

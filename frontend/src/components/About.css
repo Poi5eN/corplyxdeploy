@@ -1,0 +1,48 @@
+/* About.css */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 300px; /* Adjust this value as needed */
+    height: auto;
+  }
+  
+  .content-container {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #040e45;
+    text-align: center;
+  }
+  
+  .content-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Media Queries for responsiveness */
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+    }
+  
+    .image-container {
+      margin-bottom: 20px;
+    }
+  }
+  

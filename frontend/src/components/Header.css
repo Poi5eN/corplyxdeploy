@@ -1,0 +1,39 @@
+/* Header.css */
+header {
+    background-image: url(https://cdn.dribbble.com/users/1139271/screenshots/3111447/3.gif);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .contact-info a{
+    color: white;
+    font-size: smaller;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    gap: 10px;
+  }
+  
+  .contact-info a:hover{
+    color: red;
+  }
+  
+  .social-icons a{
+    color: black;
+  }
+  
+  .social-icons a:hover{
+    color: red;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
